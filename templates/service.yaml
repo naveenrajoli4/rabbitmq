@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: rabbitmq
-  namespace: roboshop
+  namespace: rnk-roboshop
 spec:
   selector:
     app: rabbitmq
